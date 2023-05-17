@@ -28,11 +28,11 @@ console.log(userEmail);
 
 // ADESSO CHEIDO ALL'UTENTE LA SUA EMAIL E SE è NELLA LISTA AVRà UN MESSAGGIO POSITIVO O NEGATIVO
 
-if (emailList === userEmail) {
-    console.log("true");
-} else if (emailList !== userEmail) {
+if (emailList !== userEmail) {
     console.log("false");
-}
+} else if (emailList === userEmail) {
+    console.log("true");
+} else if ()
 
 
 
