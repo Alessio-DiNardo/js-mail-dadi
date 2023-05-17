@@ -6,15 +6,15 @@
 // SE ENTRAMBI AVRANNO NUMERO = ALLORA SARà PAREGGIO
 
 
-        let playerNumber = number;
-        let cpuNumber = number;
+        let playerNumber = Math.round(Math.random()*6 + 1);;
+        let cpuNumber = Math.round(Math.random()*6 + 1);
 
 for (let i = 0; i < 6; i++) {
-    number = Math.round(Math.random()*6 + 1);
-    } if (let playerNumber.value = Math.round(Math.random()*6 + 1) > let cpuNumber.value = Math.round(Math.random()*6 + 1));{
+    } if (playerNumber.value > cpuNumber.value);{
         console.log("Hai vinto");
-    } if (let playerNumber.value = Math.round(Math.random()*6 + 1) < let cpuNumber.value = Math.round(Math.random()*6 + 1));{
+    } if (playerNumber.value < cpuNumber.value );{
         console.log("Hai perso");
-    } else if (let playerNumber.value = Math.round(Math.random()*6 + 1) = let cpuNumber.value = Math.round(Math.random()*6 + 1));{
+    } if ( playerNumber.value = cpuNumber.value);{
         console.log("Hai pareggiato");
+        
     }   
