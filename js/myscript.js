@@ -6,9 +6,9 @@
 // SE ENTRAMBI AVRANNO NUMERO = ALLORA SARà PAREGGIO
 
 
-        let playerNumber = Math.round(Math.random()*6 + 1);;
+        let playerNumber = Math.round(Math.random()*6 + 1);
         let cpuNumber = Math.round(Math.random()*6 + 1);
-        console.log(tipeof "playerNumer");
+        console.log(typeof playerNumer);
 
 for (let i = 0; i < 6; i++) {
     } if (playerNumber.value > cpuNumber.value){
