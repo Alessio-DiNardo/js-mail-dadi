@@ -6,16 +6,22 @@
 // SE ENTRAMBI AVRANNO NUMERO = ALLORA SARà PAREGGIO
 
 
-        let playerNumber = Math.round(Math.random()*6 + 1);
-        let cpuNumber = Math.round(Math.random()*6 + 1);
-        
+    let playerNumber = Math.round(Math.random()*6 + 1);
+    let cpuNumber = Math.round(Math.random()*6 + 1);
+
 
 for (let i = 0; i < 6; i++) {
     } if (playerNumber > cpuNumber){
         console.log("Hai vinto");
-    } if (playerNumber < cpuNumber){
+    } else if (playerNumber < cpuNumber){
         console.log("Hai perso");
-    } if (playerNumber = cpuNumber){
+    } else if (playerNumber = cpuNumber){
         console.log("Hai pareggiato");
-        
     }   
+
+
+const emailList = ["giorgio2@gmail.com", "babbonatale@gmail.com", "dajeroma@gmail.com", "jstiodio@gmail.com"]
+
+
+
+
