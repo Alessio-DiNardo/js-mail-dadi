@@ -8,14 +8,14 @@
 
         let playerNumber = Math.round(Math.random()*6 + 1);
         let cpuNumber = Math.round(Math.random()*6 + 1);
-        console.log(typeof playerNumer);
+        
 
 for (let i = 0; i < 6; i++) {
-    } if (playerNumber.value > cpuNumber.value){
+    } if (playerNumber > cpuNumber){
         console.log("Hai vinto");
-    } if (playerNumber.value < cpuNumber.value ){
+    } if (playerNumber < cpuNumber){
         console.log("Hai perso");
-    } if ( playerNumber.value = cpuNumber.value){
+    } if (playerNumber = cpuNumber){
         console.log("Hai pareggiato");
         
     }   
