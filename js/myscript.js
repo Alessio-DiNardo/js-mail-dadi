@@ -19,8 +19,20 @@ for (let i = 0; i < 6; i++) {
         console.log("Hai pareggiato");
     }   
 
-
+// CREO L 'ARRAY 
 const emailList = ["giorgio2@gmail.com", "babbonatale@gmail.com", "dajeroma@gmail.com", "jstiodio@gmail.com"]
+
+const userEmail = ""
+console.log(userEmail);
+
+
+// ADESSO CHEIDO ALL'UTENTE LA SUA EMAIL E SE è NELLA LISTA AVRà UN MESSAGGIO POSITIVO O NEGATIVO
+
+if (emailList === userEmail) {
+    console.log("true");
+} else if (emailList !== userEmail) {
+    console.log("false");
+}
 
 
 
