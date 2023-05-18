@@ -28,7 +28,7 @@ let isMailFound = false;
 
 for( let i = 0; i < emailList.length - 1; i++){
 
-}if (emailList[i] === userEmail) {
+    if (emailList[i] === userEmail) {
         isMailFound = true;
     
 }if ( isMailFound) {
@@ -36,6 +36,7 @@ for( let i = 0; i < emailList.length - 1; i++){
 
 }else {
     console.log("Access denied");
+}
 }
 
 
