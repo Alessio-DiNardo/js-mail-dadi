@@ -22,21 +22,26 @@ for (let i = 0; i < 6; i++) {
 // CREO L 'ARRAY 
 const emailList = ["giorgio2@gmail.com", "babbonatale@gmail.com", "dajeroma@gmail.com", "jstiodio@gmail.com"]
 
-const userEmail = ""
-console.log(userEmail);
+const userEmail = prompt("type your email address")
+
+let isMailFound = false;
+
+for( let i = 0; i < emailList.length - 1; i++){
+
+}if (emailList[i] === userEmail) {
+        isMailFound = true;
+    
+}if ( isMailFound) {
+    console.log("Access valid");
+
+}else {
+    console.log("Access denied");
+}
+
 
 
 // ADESSO CHEIDO ALL'UTENTE LA SUA EMAIL E SE è NELLA LISTA AVRà UN MESSAGGIO POSITIVO O NEGATIVO
 
-for (let i = userEmail; i < 4; i++){
-
-}   if (emailList !== userEmail) {
-    console.log("false");
-
-}   else if (emailList === userEmail) {
-    console.log("true");
-
-}   else if ()
 
 
 
